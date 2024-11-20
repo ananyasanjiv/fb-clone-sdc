@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Facebook</title>
+</head>
+<body>
+            
+    <nav>
+        <div class="nav_left">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><img src="images/notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="images/video.png" alt="video"></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="search_box">
+                <img src="images/search.png" alt="search">
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="nav_user_icon online_icon" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="profile">
+            </div>
+        </div>
+        <
+        <div class="setting_menu">
+            
+            <div id="dark_btn" class="dark_btn_on">
+                <span></span>
+            </div>
+
+            <div class="settings_menu_inner">
+                <div class="user_profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Sunil Shikhawat</p>
+                        <a href="./user.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="user_profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us To improve  new design</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="setting_link">
+                    <img src="images/setting.png" class="setting_icon" alt="">
+                    <a href="#">Setting & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/help.png" class="setting_icon" alt="">
+                    <a href="#">Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/logout.png" class="setting_icon" alt="">
+                    <a href="#">Logout<img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        
+        <div class="left_sidebar">
+            <div class="important_link">
+                <a href="#"><img src="images/news.png" alt="news">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="Freinds">Freinds</a>
+                <a href="#"><img src="images/group.png" alt="Group">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="MarketpLace">MarketpLace</a>
+                <a href="#"><img src="images/watch.png" alt="Watch">Watch</a>
+                <a href="#">See More</a>
+            </div>            
+        </div>
+        
+        <div class="main_content">
+            <div class="story_gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="Uploading Photo">
+                    <p>Post Story</p>
+                </div>                                
+            </div>
+            <div class="post_container">
+                <div class="user_profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Sunil Shikhawat</p>
+                        <small>Public <i class="fa fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post_input_container">
+                    <input id="input_vlaue" placeholder="What's on Your Mind"/>
+                    <button id="button_value">Post</button>
+                    <div class="add_post_link">
+                        <a href="#"><img src="images/live-video.png" alt="Video">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="Video">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="Video">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div id="post">
+                Post
+            </div>
+            <div class="post_container">
+                <div class="post_row">
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Sunil Shikhawat</p>
+                            <span>Sep 9 2022 , 12:50 Am</span>
+                        </div>
+                    </div>
+                    
+                </div>
+               
+                <img src="images/feed-image-1.png" alt="Feedback" class="post_img">
+                <div class="post_row">
+                    <div class="activity_icon">
+                        <div><img src="images/like-blue.png" alt="Like">120</div>
+                        <div><img src="images/comments.png" alt="Like">65</div>
+                        <div><img src="images/share.png" alt="Like">130</div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="post_container">
+                <div class="post_row">
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Sunil Shikhawat</p>
+                            <span>Sep 9 2022 , 11:09 Am</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <img src="images/feed-image-2.png" alt="Feedback" class="post_img">
+                <div class="post_row">
+                    <div class="activity_icon">
+                        <div><img src="images/like-blue.png" alt="Like">290</div>
+                        <div><img src="images/comments.png" alt="Like">98</div>
+                        <div><img src="images/share.png" alt="Like">9834</div>
+                    </div>
+                </div>
+            </div>
+            
+           
+            
+            <button type="button" class="our_btn">Load More</button>
+                    <footer>
+                            <p>Copyright 2024</p>
+                    </footer>
+        </div>
+        
+        <div class="right_sidebar">
+            <div class="sider_bar_title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="Left_event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="Right_event">
+                        <h4>Social Media</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                        <a href="#">More Info</a>
+                </div>  
+            </div>
+            <div class="event">
+                <div class="Left_event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="Right_event">
+                        <h4>Mobile Marketting</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Orangi Town Karachi</p>
+                        <a href="#">More Info</a>
+                </div>  
+            </div>
+            <div class="sider_bar_title">
+                <h4>Advertisement</h4>
+                <a href="#">CLose</a>
+            </div>
+            <img src="images/advertisement.png" alt="Advertisement" class="advirsment_side_bar">
+           
+                
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

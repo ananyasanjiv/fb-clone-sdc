@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Your Profile</title>
+</head>
+<body>
+            
+    <nav>
+        <div class="nav_left">
+            <a href="./index.html">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="images/video.png" alt="video"></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="search_box">
+                <img src="images/search.png" alt="search">
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="nav_user_icon online_icon" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="profile">
+            </div>
+        </div>
+        
+        <div class="setting_menu">
+            
+            <div id="dark_btn" class="dark_btn_on">
+                <span></span>
+            </div>
+
+            <div class="settings_menu_inner">
+                <div class="user_profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Sunil Shikhawat</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="user_profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us To improve  new design</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="setting_link">
+                    <img src="images/setting.png" class="setting_icon" alt="">
+                    <a href="#">Setting & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/help.png" class="setting_icon" alt="">
+                    <a href="#">Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/logout.png" class="setting_icon" alt="">
+                    <a href="#">Logout<img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+ 
+    <div class="profile_container">
+        <img src="images/cover.png" alt="cover" class="cover">
+        <div class="profile_detail">
+            <div class="proflie_detail_left">
+                <div class="profile_row">
+                    <img src="images/profile.png" alt="Profile" class="pd_image">
+                    <div>
+                        <h3>Sunil Shikhawat</h3>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="proflie_detail_right">
+                <button type="button"><img src="images/add-friends.png" alt="">Freinds</button>
+                <button type="button"><img src="images/message.png" alt="">Message</button>
+                <br />
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+        <div class="profile_info">
+            <div class="info_col">
+                <div class="profile_intro">
+                    <h3>Intro</h3>
+                    <p class="intro_text">Beileive in yourself and you can do unbelievible things.</p>
+                    <hr>
+                    <ul>
+                        <li> <img src="images/profile-job.png" alt=""> Director at 99media ltd</li>
+                        <li> <img src="images/profile-study.png" alt=""> Studied at Amity University</li>
+                        <li> <img src="images/profile-study.png" alt=""> Went to DPS Delhi</li>
+                        <li> <img src="images/profile-home.png" alt=""> Lives in Chicago ,USA</li>
+                        <li> <img src="images/profile-location.png" alt=""> From Bangalore, India</li>
+                    </ul>
+                </div>                
+            </div>
+            <div class="post_col">
+                <div class="post_container">
+                    
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Sunil Shikhawat</p>
+                                <span>Sep 9 2022 , 12:50 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                        
+                    <img src="images/feed-image-1.png" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like">120</div>
+                            <div><img src="images/comments.png" alt="Like">65</div>
+                            <div><img src="images/share.png" alt="Like">130</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Sunil Shikhawat</p>
+                                <span>Sep 9 2022 , 11:09 Am</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                    <img src="images/feed-image-2.png" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like">290</div>
+                            <div><img src="images/comments.png" alt="Like">98</div>
+                            <div><img src="images/share.png" alt="Like">9834</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
